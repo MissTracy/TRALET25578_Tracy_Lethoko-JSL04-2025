@@ -14,8 +14,8 @@
       sizes="32x32"
       href="./assets/favicon.svg"
     />
+    <script defer src="./initialData.js"></script>  
     <script defer src="./script.js"></script>
-    <script defer src="./initialData.js"></script>
     <title>Kanban Task Management</title>
   </head>
 
@@ -93,5 +93,27 @@
         </main>
       </div>
     </div>
+    <dialog id="task-modal">
+      <form method="dialog">
+    
+        <h3>Task</h3>
+    
+        <label>Title</label>
+        <input id="task-title" type="text">
+    
+        <label>Description</label>
+        <textarea id="task-desc"></textarea>
+    
+        <label>Status</label>
+        <select id="task-status">
+          <option value="todo">todo</option>
+          <option value="doing">doing</option>
+          <option value="done">done</option>
+        </select>
+    
+        <button>Close</button>
+    
+      </form>
+    </dialog>
   </body>
 </html>
