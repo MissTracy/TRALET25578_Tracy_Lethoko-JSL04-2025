@@ -14,25 +14,54 @@
     --sidebar-width: 300px; /* Sidebar fixed width */
   }
 
-  #task-modal {
-    border: none;
-    background-color: #FFFFFF;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    width: min(30rem, 90vw);
-  }
-  
-  #task-modal form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  #task-modal input,
-  #task-modal textarea,
-  #task-modal select {
-    width: 100%;
-  }
+    #task-modal {
+      border: none;
+      background-color: #FFFFFF;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      width: min(30rem, 90vw);
+    }
+    
+    #task-modal form {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }
+    
+    #task-modal input,
+    #task-modal textarea,
+    #task-modal select {
+      width: 100%;
+      gap: 0.5rem;
+      /* border: #828FA340; */
+    
+    }
+
+    #task-modal label {
+      color: #828FA3;
+      font-size: 0.75rem;
+    }
+
+    /* #task-status{
+      background-color: #FFFFFF;
+      border: 1px solid #828FA340;
+    } */
+    #task-desc, #task-title, #task-status{
+      border: 1px solid #828FA340;
+      height: 2rem;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 0.3rem;
+      padding-left: .5rem;
+    }
+
+    #task-desc{
+      height: 5rem;
+    }
+    
+
+
+
   
   /* ================
      Base Elements
