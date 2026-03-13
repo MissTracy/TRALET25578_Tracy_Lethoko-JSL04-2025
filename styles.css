@@ -20,6 +20,8 @@
       border-radius: 0.5rem;
       padding: 1.5rem;
       width: min(30rem, 90vw);
+      padding-top: .5rem;
+      padding-bottom: .5rem;
     }
     
     #task-modal form {
@@ -58,7 +60,20 @@
     #task-desc{
       height: 5rem;
     }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     
+    .close-modal {
+      background: none;
+      border: none;
+      color: #EA5555;
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
 
 
 

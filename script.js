@@ -58,3 +58,9 @@ function renderTasks() {
 
   }
   renderTasks();
+
+  const closeBtn = document.querySelector(".close-modal");
+
+  closeBtn.addEventListener("click", function () {
+    modal.close();
+  });
