@@ -44,10 +44,7 @@
       font-size: 0.75rem;
     }
 
-    /* #task-status{
-      background-color: #FFFFFF;
-      border: 1px solid #828FA340;
-    } */
+    
     #task-desc, #task-title, #task-status{
       border: 1px solid #828FA340;
       height: 2rem;
@@ -59,11 +56,20 @@
 
     #task-desc{
       height: 5rem;
+      resize: none;
+    }
+    
+    
+    #task-status{
+      cursor: pointer;
+      /* background-color: #FFFFFF; */
+      /* appearance: none; */
+
     }
 
     .modal-header {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-between; 
       align-items: center;
     }
     
