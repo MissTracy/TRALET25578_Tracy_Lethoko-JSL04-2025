@@ -34,9 +34,7 @@
     #task-modal textarea,
     #task-modal select {
       width: 100%;
-      gap: 0.5rem;
-      /* border: #828FA340; */
-    
+      gap: 0.5rem;    
     }
 
     #task-modal label {
@@ -44,7 +42,6 @@
       font-size: 0.75rem;
     }
 
-    
     #task-desc, #task-title, #task-status{
       border: 1px solid #828FA340;
       height: 2rem;
@@ -59,12 +56,8 @@
       resize: none;
     }
     
-    
     #task-status{
       cursor: pointer;
-      /* background-color: #FFFFFF; */
-      /* appearance: none; */
-
     }
 
     .modal-header {
@@ -80,9 +73,6 @@
       font-size: 1.25rem;
       cursor: pointer;
     }
-
-
-
   
   /* ================
      Base Elements
